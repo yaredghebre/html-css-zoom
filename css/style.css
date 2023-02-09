@@ -50,6 +50,10 @@ body{
     position: relative;
 }
 
+.absolute{
+    position: absolute;
+}
+
 .list{
     gap: 20px;
 }
@@ -57,6 +61,11 @@ body{
 ol{
     font-size: 1rem;
 }
+
+a:hover{
+    font-size: 3rem;
+}
+
 
 /* MAIN */
 .main-container{
@@ -114,7 +123,7 @@ ol{
     background-color: #4a4a4a;
     color: red;
     top: -20px;
-    left: 120px; 
+    left: 110px; 
     font-size: 1rem;
 }
 
@@ -126,13 +135,12 @@ ol{
     color: #4bc800;
 }
 
-.share:hover{
-    font-size: 3rem;
-}
-
 .esc-button{
-    position: absolute;
     top: 30px;
     left: 35px;
+}
+
+.esc-button:hover{
+    font-size: 1.18rem;
 }
 
