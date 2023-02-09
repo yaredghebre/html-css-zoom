@@ -83,27 +83,26 @@ body{
     z-index: 100;
     bottom: 0;
     left: 0;
-    padding: 15px;
+    padding: 20px;
     font-size: 2.5rem;
 }
 
 .remote-left{
     height: 100px;
-    width: calc(100% / 3);
+    width: 25%;
     /* debug */
     /* background-color: green; */
 }
 
 .remote-center{
     height: 100px;
-    width: calc(100% / 3);
-    /* debug */
-    background-color: red;
+    width: 50%;
+    justify-content: space-around;
 }
 
 .remote-right{
     height: 100px;
-    width: calc(100% / 3);
+    width: 25%;
     /* debug */
     background-color: blue;
 }
@@ -114,4 +113,16 @@ body{
 
 ol{
     font-size: 1rem;
+}
+
+.arrow{
+    font-size: 1rem;
+}
+
+.share{
+    color: #4bc800;
+}
+
+.share:hover{
+    font-size: 3rem;
 }
