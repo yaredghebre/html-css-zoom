@@ -4,3 +4,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* COMMON */
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Layout */
+.wrapper{
+    background-color: black;
+    height: 100vh;
+    padding: 70px;
+    /* debug */
+    width: 100%;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.justify-content{
+    justify-content: space-between ;
+}
+
+/* Utilities */
+
+
+/* MAIN */
+.main-container{
+    width: 100%;
+    /* debug */
+    background-color: red;
+}
+
+.row{
+    padding: 10px 5px;
+}
+
+.col{
+    width: calc(100% / 7 - 10px);
+    /* debug */
+    background-color: white;
+    height: 200px;
+}
+
